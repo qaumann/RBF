@@ -1,0 +1,18 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "cython",
+    "numpy"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rbf"
+dynamic = [
+    "authors",
+    "description",
+    "license"
+]
+version = "2022.6.12"
+
